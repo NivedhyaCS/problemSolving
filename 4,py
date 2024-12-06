@@ -1,0 +1,19 @@
+from ast import Return
+
+
+username = (input("Enter the username:"))
+y = len(username)
+x = username.isalnum()
+if x==True:
+   if y<6:
+       print("output recede")
+   elif y>15:
+       print("output exceed")
+   else:
+       print("validated")
+else :
+    x==(False)
+    print("not validate")
+
+
+

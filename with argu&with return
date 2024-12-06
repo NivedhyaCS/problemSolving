@@ -1,0 +1,19 @@
+def calculators(num1,num2,choice):
+    if choice=="1":
+        return num1+num2
+    elif choice=="2":
+        return num1-num2
+    elif choice=="3":
+        return num1*num2
+    elif choice=="4":
+        if num2!=0:
+            return num1/num2
+        else:
+            return"error"
+    else:
+        return"inavalid functions"
+num1 = float(input("Enter the num1:"))
+num2 = float(input("Enter the num2:"))
+choice = input("Enter the operation:")
+result = calculators(num1,num2,choice)
+print(result)

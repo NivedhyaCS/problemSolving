@@ -1,0 +1,3 @@
+words = ['apple','banana','apple','orange','banana','apple']
+word_count={ word:words.count(words) for word in set(words) }
+print(word_count)
